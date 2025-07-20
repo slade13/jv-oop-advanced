@@ -17,7 +17,7 @@ public class Circle extends Figure {
                         + "area: %.2f sq. units, "
                         + "radius: %.2f units, "
                         + "color: %s\n",
-                this.getClass().getName().toLowerCase(),
+                this.getClass().getSimpleName().toLowerCase(),
                 getArea(),
                 radius,
                 getColor().name());

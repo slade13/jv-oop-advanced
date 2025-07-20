@@ -20,7 +20,7 @@ public class Rectangle extends Figure {
                         + "width: %.2f units, "
                         + "height: %.2f units, "
                         + "color: %s\n",
-                this.getClass().getName().toLowerCase(),
+                this.getClass().getSimpleName().toLowerCase(),
                 getArea(),
                 width,
                 height,

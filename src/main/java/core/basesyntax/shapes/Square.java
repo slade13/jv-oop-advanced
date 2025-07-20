@@ -18,7 +18,7 @@ public class Square extends Figure {
                         + "area: %.2f sq. units, "
                         + "side: %.2f units, "
                         + "color: %s\n",
-                this.getClass().getName().toLowerCase(),
+                this.getClass().getSimpleName().toLowerCase(),
                 getArea(),
                 side,
                 getColor().name());

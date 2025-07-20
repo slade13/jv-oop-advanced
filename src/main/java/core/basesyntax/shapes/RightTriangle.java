@@ -21,7 +21,7 @@ public class RightTriangle extends Figure {
                         + "base: %.2f units, "
                         + "height: %.2f units, "
                         + "color: %s\n",
-                this.getClass().getName().toLowerCase(),
+                this.getClass().getSimpleName().toLowerCase(),
                 getArea(),
                 base,
                 height,
